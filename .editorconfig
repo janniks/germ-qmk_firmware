@@ -23,7 +23,7 @@ max_line_length = 200
 # Make these match what we have in .gitattributes
 [*.mk]
 end_of_line = lf
-indent_style = tab
+indent_style = space
 
 [Makefile]
 end_of_line = lf

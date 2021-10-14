@@ -7,7 +7,11 @@ COMB(asEsc,          KC_ESC,           KC_A, KC_S)
 // arrows
 COMB(lsmclRarrow,    KC_RGHT,          KC_L, KC_SCLN)
 COMB(jkLarrow,       KC_LEFT,          KC_J, KC_K)
-COMB(mcommDarrow,    KC_DOWN,          KC_M, KC_COMM)
-COMB(uiUarrow,       KC_UP,            KC_U, KC_I)
+//COMB(mcommDarrow,    KC_DOWN,          KC_M, KC_COMM)
+//COMB(uiUarrow,       KC_UP,            KC_U, KC_I)
+COMB(klDarrow,       KC_DOWN,          KC_K, KC_L)
+COMB(ioUarrow,       KC_UP,            KC_I, KC_O)
 
-// Note: keys cant be used for combos if theyre also used for mod-tap
+// # Notes to self:
+// - keys cant be used for combos if they're also used in a mod-tap
+// -
