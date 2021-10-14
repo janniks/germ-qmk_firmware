@@ -1,0 +1,13 @@
+// janniks custom Gergoplex combos
+SUBS(pasta,       "I'd just like to interject for a moment.",       KC_H, KC_J, KC_K, KC_L)
+
+COMB(opBspc,         KC_BSPC,          KC_O, KC_P)
+COMB(asEsc,          KC_ESC,           KC_A, KC_S)
+
+// arrows
+COMB(lsmclRarrow,    KC_RGHT,          KC_L, KC_SCLN)
+COMB(jkLarrow,       KC_LEFT,          KC_J, KC_K)
+COMB(mcommDarrow,    KC_DOWN,          KC_M, KC_COMM)
+COMB(uiUarrow,       KC_UP,            KC_U, KC_I)
+
+// Note: keys cant be used for combos if theyre also used for mod-tap
